@@ -1482,6 +1482,11 @@
 																		</div>
 																		<div class='post-footer-line post-footer-line-2'>
 																			<div class="fb-like" expr:data-href="data:post.url" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+																			<b:if cond='data:top.showPlusOne'>
+																				<div class='goog-inline-block google-plus-share-container'>
+																					<data:post.googlePlusShareTag/>
+																				</div>
+																			</b:if>
 																			<span class='post-labels'>
 																				<b:if cond='data:top.showPostLabels and data:post.labels'>
 																					<data:postLabelsLabel/>
